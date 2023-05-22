@@ -6,6 +6,6 @@ const store = configureStore({
     reducer: {
         'user': userReducer
     },
-    devTools: true
+    devTools: false
 });
 export default store;
