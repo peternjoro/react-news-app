@@ -12,7 +12,17 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      colors: {
+        softGreen: '#009CBD',
+        primary: '#0275d8',
+        miniTxtColor: '#459AB9',
+        innoColor1: '#23586b',
+        innoColor2: '#41919a',
+        innoColor3: '#8cd2ba'
+      },
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms')
+  ],
 }
